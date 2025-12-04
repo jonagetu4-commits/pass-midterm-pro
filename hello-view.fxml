@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java3_mid_project.HelloController">
+   <children>
+      <Button layoutX="123.0" layoutY="63.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="submit " />
+      <TextField fx:id="user_input_tf" layoutX="21.0" layoutY="63.0" prefHeight="26.0" prefWidth="86.0" />
+      <Label fx:id="welcomeText" alignment="TOP_LEFT" layoutX="21.0" layoutY="96.0" prefHeight="294.0" prefWidth="575.0" text="Results diplay here." />
+      <ComboBox fx:id="user_pick_cb" layoutX="21.0" layoutY="14.0" prefWidth="150.0" />
+      <Label fx:id="instuctions_lb" layoutX="21.0" layoutY="44.0" prefHeight="18.0" prefWidth="559.0" text="Select an option." />
+   </children>
+</AnchorPane>
